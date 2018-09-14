@@ -19,7 +19,7 @@ function currentLine (katzDeliLine) {
  for (var i = 0; i < katzDeliLine.length; i++) {
    position.push([i+1]+". " + katzDeliLine[i]);
  }
- return "The line is currently: " + position.join(",");
+ return "The line is currently: " + position.join(", ");
 }
  
  
